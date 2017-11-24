@@ -5,10 +5,34 @@
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag 'application', 'http://fonts.googleapis.com/css?family=Raleway:400,700' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
+    <p class="notice"><%= notice %></p>
+    <p class="alert"><%= alert %></p>
+    <div id="sidebar">
+      <div id="logo">
+        <%= link_to root_path do %>
+          <%= image_tag "logo.svg" %>
+        <% end %>
+      </div>
+      <ul>
+        <li class="category">MonkeyBlog</li>
+        <li><%= link_to "Blog", root_path %></li>
+        <li>About</li>
+      </ul>
+
+      <ul>
+        <li class="category">Social</li>
+        <li><a href="https://twitter.com/monkeysh1ne">Twitter</li>
+        <li><a href="mailto: mcdoob@gmail.com">Email</li>
+        <li><a href="https://github.com/monkeysh1ne">Github</li>
+      </ul>
+
+      <p class="sign_in"></p>
+    </div>
     <%= yield %>
   </body>
 </html>
