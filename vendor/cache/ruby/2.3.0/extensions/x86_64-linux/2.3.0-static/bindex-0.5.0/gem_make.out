@@ -1,0 +1,15 @@
+current directory: /home/dazza/Desktop/workspace/blog/vendor/cache/ruby/2.3.0/gems/bindex-0.5.0/ext/bindex
+/home/dazza/.rbenv/versions/2.3.1/bin/ruby -r ./siteconf20171126-21898-2tq8rk.rb extconf.rb
+creating Makefile
+
+current directory: /home/dazza/Desktop/workspace/blog/vendor/cache/ruby/2.3.0/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR=" clean
+
+current directory: /home/dazza/Desktop/workspace/blog/vendor/cache/ruby/2.3.0/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR="
+compiling cruby.c
+linking shared-object bindex/cruby.so
+
+current directory: /home/dazza/Desktop/workspace/blog/vendor/cache/ruby/2.3.0/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cruby.so ./.gem.20171126-21898-1cz4hw/bindex

@@ -1,0 +1,19 @@
+current directory: /home/dazza/Desktop/workspace/blog/vendor/cache/ruby/2.3.0/gems/byebug-9.1.0/ext/byebug
+/home/dazza/.rbenv/versions/2.3.1/bin/ruby -r ./siteconf20171126-21898-11qse0t.rb extconf.rb
+creating Makefile
+
+current directory: /home/dazza/Desktop/workspace/blog/vendor/cache/ruby/2.3.0/gems/byebug-9.1.0/ext/byebug
+make "DESTDIR=" clean
+
+current directory: /home/dazza/Desktop/workspace/blog/vendor/cache/ruby/2.3.0/gems/byebug-9.1.0/ext/byebug
+make "DESTDIR="
+compiling breakpoint.c
+compiling context.c
+compiling byebug.c
+compiling threads.c
+compiling locker.c
+linking shared-object byebug/byebug.so
+
+current directory: /home/dazza/Desktop/workspace/blog/vendor/cache/ruby/2.3.0/gems/byebug-9.1.0/ext/byebug
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 byebug.so ./.gem.20171126-21898-1ar2w7x/byebug
